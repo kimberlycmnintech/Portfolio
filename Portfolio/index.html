@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-icons@v11.11.0/dist/simple-icons.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Kimberly Chan</span></h1>
+                <h2 class="typing-text"> </h2>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <!-- Replace the icon below with your image -->
+                        <!-- <i class="fas fa-user"></i> -->
+                        <img src="images/photo.jpg" alt="Kimberly Chan" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I am currently a first year Computer Science student at the Sunway University. I approach learning with an open mind and strongly believing in the importance of good time management skills. My current passion lies in building web and mobile applications, Machine Learning and AI. Please feel free to contact me through email or drop me a message on LinkedIn if you want to collaborate with me for projects or even just a chat! I am currently seeking for an internship as a Software Engineer or other suitable positions starting Jan 2027.
+                    </p>
+                    <p>
+                        My journey in tech started with curiosity and has evolved into a career focused 
+                        on continuous learning and growth. I believe in writing clean, maintainable code 
+                        and staying up-to-date with the latest industry trends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5" style="color: #2563eb;"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt" style="color: #2563eb;"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js" style="color: #2563eb;"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js" style="color: #2563eb;"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python" style="color: #2563eb;"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-c-plain colored" style="color: #2563eb;"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-java-plain colored" style="color: #2563eb;"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" style="color: #2563eb;"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt" style="color: #2563eb;"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud" style="color: #2563eb;"></i>
+                            <span>Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <svg class="custom-skill-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Cisco</title><path d="M1.846 15.47c.51 0 .924.414.924.924v2.31a.924.924 0 1 1-1.848 0v-2.31c0-.51.414-.924.924-.924zm2.77-3.693c.51 0 .924.414.924.924v6.003a.924.924 0 1 1-1.848 0v-6.003c0-.51.414-.924.924-.924zm2.77-3.693c.51 0 .924.414.924.924v13.39a.924.924 0 1 1-1.848 0v-13.39c0-.51.414-.924.924-.924zm2.77 2.77c.51 0 .924.414.924.924v7.233a.924.924 0 1 1-1.848 0v-7.233c0-.51.414-.924.924-.924zm2.77-5.54c.51 0 .924.414.924.924v18.963a.924.924 0 1 1-1.848 0V6.664c0-.51.414-.924.924-.924zm2.77 5.54c.51 0 .924.414.924.924v7.233a.924.924 0 1 1-1.848 0v-7.233c0-.51.414-.924.924-.924zm2.77-2.77c.51 0 .924.414.924.924v13.39a.924.924 0 1 1-1.848 0v-13.39c0-.51.414-.924.924-.924zm2.77 3.693c.51 0 .924.414.924.924v6.003a.924.924 0 1 1-1.848 0v-6.003c0-.51.414-.924.924-.924zm2.77 3.693c.51 0 .924.414.924.924v2.31a.924.924 0 1 1-1.848 0v-2.31c0-.51.414-.924.924-.924zM7.385 22.154c.13-.003.26.02.38.067.12.048.23.12.32.213.09.093.16.205.2.328.04.123.05.254.03.382a.77.77 0 0 1-.067.38.77.77 0 0 1-.213.32.77.77 0 0 1-.328.2.77.77 0 0 1-.382.03.77.77 0 0 1-.38-.067.77.77 0 0 1-.32-.213.77.77 0 0 1-.2-.328.77.77 0 0 1-.03-.382.77.77 0 0 1 .067-.38.77.77 0 0 1 .213-.32.77.77 0 0 1 .328-.2.77.77 0 0 1 .382-.03zm9.23 0c.13-.003.26.02.38.067.12.048.23.12.32.213.09.093.16.205.2.328.04.123.05.254.03.382a.77.77 0 0 1-.067.38.77.77 0 0 1-.213.32.77.77 0 0 1-.328.2.77.77 0 0 1-.382.03.77.77 0 0 1-.38-.067.77.77 0 0 1-.32-.213.77.77 0 0 1-.2-.328.77.77 0 0 1-.03-.382.77.77 0 0 1 .067-.38.77.77 0 0 1 .213-.32.77.77 0 0 1 .328-.2.77.77 0 0 1 .382-.03zm-7.385-2.308h1.385c.13 0 .26.026.38.077.12.05.23.13.32.23.09.1.16.22.2.35.04.13.05.27.03.4a.77.77 0 0 1-.077.38.77.77 0 0 1-.23.32.77.77 0 0 1-.35.2.77.77 0 0 1-.4.03.77.77 0 0 1-.38-.077.77.77 0 0 1-.32-.23.77.77 0 0 1-.2-.35.77.77 0 0 1-.03-.4v-1.385zm2.308 0h1.385c.13 0 .26.026.38.077.12.05.23.13.32.23.09.1.16.22.2.35.04.13.05.27.03.4a.77.77 0 0 1-.077.38.77.77 0 0 1-.23.32.77.77 0 0 1-.35.2.77.77 0 0 1-.4.03.77.77 0 0 1-.38-.077.77.77 0 0 1-.32-.23.77.77 0 0 1-.2-.35.77.77 0 0 1-.03-.4v-1.385zm2.308 0h1.385c.13 0 .26.026.38.077.12.05.23.13.32.23.09.1.16.22.2.35.04.13.05.27.03.4a.77.77 0 0 1-.077.38.77.77 0 0 1-.23.32.77.77 0 0 1-.35.2.77.77 0 0 1-.4.03.77.77 0 0 1-.38-.077.77.77 0 0 1-.32-.23.77.77 0 0 1-.2-.35.77.77 0 0 1-.03-.4v-1.385zm2.308 0h1.385c.13 0 .26.026.38.077.12.05.23.13.32.23.09.1.16.22.2.35.04.13.05.27.03.4a.77.77 0 0 1-.077.38.77.77 0 0 1-.23.32.77.77 0 0 1-.35.2.77.77 0 0 1-.4.03.77.77 0 0 1-.38-.077.77.77 0 0 1-.32-.23.77.77 0 0 1-.2-.35.77.77 0 0 1-.03-.4v-1.385z"/></svg>
+                            <span>Cisco</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-vscode-plain colored" style="color: #2563eb;"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-github-original colored" style="color: #2563eb;"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <a href="./cafe-website/index.html" class="project-card-link" target="_blank">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/e cafe.jpg" alt="Solace Cafe" class="project-image-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Solace Cafe Website</h3>
+                            <p>A modern cafe website featuring an interactive menu, online ordering with cart and checkout, table reservation system and team introduction. It is designed to enhance the customer experience both online and in-store.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kimberlycmnintech/Cafe-website-assignment" class="project-link" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                                <a href="images/Group61_SolaceCafe_AngelynYekYinYin.mp4" class="project-link" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./project2/index.html" class="project-card-link" target="_blank">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/pokemon.jpg" alt="Pokémon Game" class="project-image-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Pokémon Ga-Ole Java Game Simulator</h3>
+                            <p>This console-based Java application is a simplified simulation of the Pokémon Ga-Ole arcade game. Designed with a strong emphasis on object-oriented programming principles, the project showcases my understanding of modularity, encapsulation, inheritance, and polymorphism.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mnkim.chan@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0176766406</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Selangor, Malaysia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kimberlycmnintech" class="social-link" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kimberly-chan-mun-nga" class="social-link" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.link/d6dgd0" class="social-link" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kimberly Chan Mun Nga. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
